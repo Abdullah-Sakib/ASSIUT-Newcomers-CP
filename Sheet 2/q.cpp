@@ -20,12 +20,15 @@ int main()
             while (num > 0)
             {
                 cout << num % 10 << " ";
+
                 num /= 10;
             }
         }
 
         cout << endl;
     }
+
+    // cout << " " << endl;
 
     return 0;
 }
